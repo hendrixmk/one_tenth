@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+  }
+  .event {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    }
+  
+  button[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+ 
+  button[type=submit]:hover {
+    background-color: #45a049;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+.col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+  }
+  .dat{
+      width: 75%;
+      margin-top: 6px;
+      box-sizing: inherit;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, .date-in, button[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+/*SideBar*/
+.nolist {
+  list-style: none;
+}
+.sidebar-wrapper {
+max-width: 295px;
+margin-bottom: 50px
+}
+@media (max-width:991px) {
+.sidebar-wrapper {
+  width: 100%;
+  max-width: 992px;
+  margin-bottom: 0
+}
+}
+.sidebar-wrapper>ul li {
+font-size: 1.8rem;
+font-weight: 500
+}
+.sidebar-wrapper>ul>li {
+border-top: 1px solid #e9e7e7;
+font-weight: 500
+}
+.sidebar-wrapper nav>ul {
+font-family: Montserrat, sans-serif;
+margin-bottom: 0;
+}
+.sidebar-wrapper nav>ul li {
+font-size: 1.8rem;
+font-weight: 500;
+}
+.sidebar-wrapper nav>ul>li {
+border-top: 1px solid #e9e7e7;
+font-weight: 500
+}
+.sidebar-wrapper nav>ul>li:first-child {
+border: 0
+}
+.sidebar-wrapper nav>ul>li>a {
+color: #1f1a17;
+display: block;
+padding: 25px 15px;
+font-size: medium;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-decoration: none;
+}
+.sidebar-wrapper nav>ul>li>a:hover {
+color: #fff;
+background: #ed145b;
+}
+.col-sm-12 h2{
+  color:deepskyblue;
+  margin-top: 4%;
+}
+.col-sm-12 p{
+  font-family: 'Courier New', Courier, monospace;
+}

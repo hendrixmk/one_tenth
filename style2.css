@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.church-desk{
+	width: 100%;
+	margin: auto; 
+	text-align: center;
+	padding-top: 100px;
+    margin-bottom: 0%;
+    padding-bottom: 100px;
+    background-color: #ADE8F4;
+}
+.church-desk .fa-university{
+    margin-top: -5%;
+    font-size: 60px;
+    color: #0096C7;
+}
+.church-desk .h1{
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.row{
+	margin-top: 0%;
+    margin-bottom: 0%;
+	display: flex;
+}
+.church-desk-col .fa{
+    font-size: 80px;
+    color: #0096C7; 
+    margin-left: 1%; 
+}
+.church-desk-col{
+    text-align: initial;
+	flex-basis: 50%;
+	margin-right: 2%;
+	border-radius: 1%;
+	margin-bottom: 4%;
+	padding: 30px 50px;
+	transition: 0.9s;
+    background-color: #90E0FF;
+}
+.church-desk h1{
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+.church-desk-col h2{
+    font-weight: 800;
+    color: #0096C7;
+}
+.church-desk-col li{
+	font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    color: steelblue;
+}
+.church-desk1-col{
+    flex-basis: 31%;
+	margin-right: 5%;
+    background: #CAF0F8;
+	border-radius: 1%;
+    margin-top: 0%;
+	margin-bottom: 4%;
+	padding: 30px 32px;
+	box-sizing: border-box;
+	transition: 0.9s;
+}
+.church-desk1-col h2{
+    font-family: "Courier new",monospace;
+    font-weight: 800;
+    color: #0096C7;
+    text-decoration-style: none;
+
+}
+.church-desk1-col a{
+    text-decoration: none;
+}
+.church-desk1-col h4{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: initial;
+    color: #00B4D8;
+    font-size: 25px;
+}
+.church-desk1-col h2:hover{
+    box-shadow: #CAF0F8;
+	display: inline-block;
+	text-decoration: none;
+	color: #0077B6;
+	/*padding: 12px 34px;
+	margin-bottom: 3%;*/
+	border-radius: 1%;
+	font-size: 30px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.church-desk1-col .same h4{
+    font-family: "Lucida console",monospace;
+    text-align: center;
+    color: #5d9e9b;
+}
+.church-desk1-col li{
+    text-align: initial;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    color: gray;
+}
